@@ -20,10 +20,10 @@ module Kubernetes
       @api_client = api_client
     end
 
-    # 
+    #
     # create a ControllerRevision
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [BOOLEAN] :include_uninitialized If true, partially initialized resources are included in the response.
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
@@ -34,10 +34,10 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # create a ControllerRevision
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [BOOLEAN] :include_uninitialized If true, partially initialized resources are included in the response.
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
@@ -90,10 +90,10 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # create a DaemonSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [BOOLEAN] :include_uninitialized If true, partially initialized resources are included in the response.
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
@@ -104,10 +104,10 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # create a DaemonSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [BOOLEAN] :include_uninitialized If true, partially initialized resources are included in the response.
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
@@ -160,10 +160,10 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # create a Deployment
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [BOOLEAN] :include_uninitialized If true, partially initialized resources are included in the response.
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
@@ -174,10 +174,10 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # create a Deployment
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [BOOLEAN] :include_uninitialized If true, partially initialized resources are included in the response.
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
@@ -230,10 +230,10 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # create a ReplicaSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [BOOLEAN] :include_uninitialized If true, partially initialized resources are included in the response.
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
@@ -244,10 +244,10 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # create a ReplicaSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [BOOLEAN] :include_uninitialized If true, partially initialized resources are included in the response.
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
@@ -300,10 +300,10 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # create a StatefulSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [BOOLEAN] :include_uninitialized If true, partially initialized resources are included in the response.
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
@@ -314,10 +314,10 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # create a StatefulSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [BOOLEAN] :include_uninitialized If true, partially initialized resources are included in the response.
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
@@ -370,7 +370,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # delete collection of ControllerRevision
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
@@ -389,7 +389,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # delete collection of ControllerRevision
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
@@ -452,7 +452,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # delete collection of DaemonSet
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
@@ -471,7 +471,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # delete collection of DaemonSet
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
@@ -534,7 +534,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # delete collection of Deployment
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
@@ -553,7 +553,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # delete collection of Deployment
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
@@ -616,7 +616,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # delete collection of ReplicaSet
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
@@ -635,7 +635,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # delete collection of ReplicaSet
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
@@ -698,7 +698,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # delete collection of StatefulSet
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
@@ -717,7 +717,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # delete collection of StatefulSet
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
@@ -780,13 +780,13 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # delete a ControllerRevision
     # @param name name of the ControllerRevision
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
-    # @option opts [V1DeleteOptions] :body 
+    # @option opts [V1DeleteOptions] :body
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
     # @option opts [Integer] :grace_period_seconds The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.
     # @option opts [BOOLEAN] :orphan_dependents Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \&quot;orphan\&quot; finalizer will be added to/removed from the object&#39;s finalizers list. Either this field or PropagationPolicy may be set, but not both.
@@ -797,13 +797,13 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # delete a ControllerRevision
     # @param name name of the ControllerRevision
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
-    # @option opts [V1DeleteOptions] :body 
+    # @option opts [V1DeleteOptions] :body
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
     # @option opts [Integer] :grace_period_seconds The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.
     # @option opts [BOOLEAN] :orphan_dependents Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \&quot;orphan\&quot; finalizer will be added to/removed from the object&#39;s finalizers list. Either this field or PropagationPolicy may be set, but not both.
@@ -858,13 +858,13 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # delete a DaemonSet
     # @param name name of the DaemonSet
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
-    # @option opts [V1DeleteOptions] :body 
+    # @option opts [V1DeleteOptions] :body
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
     # @option opts [Integer] :grace_period_seconds The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.
     # @option opts [BOOLEAN] :orphan_dependents Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \&quot;orphan\&quot; finalizer will be added to/removed from the object&#39;s finalizers list. Either this field or PropagationPolicy may be set, but not both.
@@ -875,13 +875,13 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # delete a DaemonSet
     # @param name name of the DaemonSet
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
-    # @option opts [V1DeleteOptions] :body 
+    # @option opts [V1DeleteOptions] :body
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
     # @option opts [Integer] :grace_period_seconds The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.
     # @option opts [BOOLEAN] :orphan_dependents Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \&quot;orphan\&quot; finalizer will be added to/removed from the object&#39;s finalizers list. Either this field or PropagationPolicy may be set, but not both.
@@ -936,13 +936,13 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # delete a Deployment
     # @param name name of the Deployment
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
-    # @option opts [V1DeleteOptions] :body 
+    # @option opts [V1DeleteOptions] :body
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
     # @option opts [Integer] :grace_period_seconds The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.
     # @option opts [BOOLEAN] :orphan_dependents Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \&quot;orphan\&quot; finalizer will be added to/removed from the object&#39;s finalizers list. Either this field or PropagationPolicy may be set, but not both.
@@ -953,13 +953,13 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # delete a Deployment
     # @param name name of the Deployment
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
-    # @option opts [V1DeleteOptions] :body 
+    # @option opts [V1DeleteOptions] :body
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
     # @option opts [Integer] :grace_period_seconds The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.
     # @option opts [BOOLEAN] :orphan_dependents Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \&quot;orphan\&quot; finalizer will be added to/removed from the object&#39;s finalizers list. Either this field or PropagationPolicy may be set, but not both.
@@ -1014,13 +1014,13 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # delete a ReplicaSet
     # @param name name of the ReplicaSet
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
-    # @option opts [V1DeleteOptions] :body 
+    # @option opts [V1DeleteOptions] :body
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
     # @option opts [Integer] :grace_period_seconds The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.
     # @option opts [BOOLEAN] :orphan_dependents Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \&quot;orphan\&quot; finalizer will be added to/removed from the object&#39;s finalizers list. Either this field or PropagationPolicy may be set, but not both.
@@ -1031,13 +1031,13 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # delete a ReplicaSet
     # @param name name of the ReplicaSet
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
-    # @option opts [V1DeleteOptions] :body 
+    # @option opts [V1DeleteOptions] :body
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
     # @option opts [Integer] :grace_period_seconds The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.
     # @option opts [BOOLEAN] :orphan_dependents Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \&quot;orphan\&quot; finalizer will be added to/removed from the object&#39;s finalizers list. Either this field or PropagationPolicy may be set, but not both.
@@ -1092,13 +1092,13 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # delete a StatefulSet
     # @param name name of the StatefulSet
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
-    # @option opts [V1DeleteOptions] :body 
+    # @option opts [V1DeleteOptions] :body
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
     # @option opts [Integer] :grace_period_seconds The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.
     # @option opts [BOOLEAN] :orphan_dependents Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \&quot;orphan\&quot; finalizer will be added to/removed from the object&#39;s finalizers list. Either this field or PropagationPolicy may be set, but not both.
@@ -1109,13 +1109,13 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # delete a StatefulSet
     # @param name name of the StatefulSet
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
-    # @option opts [V1DeleteOptions] :body 
+    # @option opts [V1DeleteOptions] :body
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
     # @option opts [Integer] :grace_period_seconds The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.
     # @option opts [BOOLEAN] :orphan_dependents Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \&quot;orphan\&quot; finalizer will be added to/removed from the object&#39;s finalizers list. Either this field or PropagationPolicy may be set, but not both.
@@ -1170,7 +1170,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # get available resources
     # @param [Hash] opts the optional parameters
     # @return [V1APIResourceList]
@@ -1179,7 +1179,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # get available resources
     # @param [Hash] opts the optional parameters
     # @return [Array<(V1APIResourceList, Fixnum, Hash)>] V1APIResourceList data, response status code and response headers
@@ -1219,7 +1219,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # list or watch objects of kind ControllerRevision
     # @param [Hash] opts the optional parameters
     # @option opts [String] :continue The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server, the server will respond with a 410 ResourceExpired error together with a continue token. If the client needs a consistent list, it must restart their list without the continue field. Otherwise, the client may send another list request with the token received with the 410 error, the server will respond with a list starting from the next key, but from the latest snapshot, which is inconsistent from the previous list results - objects that are created, modified, or deleted after the first list request will be included in the response, as long as their keys are after the \&quot;next key\&quot;.  This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications.
@@ -1237,7 +1237,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # list or watch objects of kind ControllerRevision
     # @param [Hash] opts the optional parameters
     # @option opts [String] :continue The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server, the server will respond with a 410 ResourceExpired error together with a continue token. If the client needs a consistent list, it must restart their list without the continue field. Otherwise, the client may send another list request with the token received with the 410 error, the server will respond with a list starting from the next key, but from the latest snapshot, which is inconsistent from the previous list results - objects that are created, modified, or deleted after the first list request will be included in the response, as long as their keys are after the \&quot;next key\&quot;.  This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications.
@@ -1295,7 +1295,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # list or watch objects of kind DaemonSet
     # @param [Hash] opts the optional parameters
     # @option opts [String] :continue The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server, the server will respond with a 410 ResourceExpired error together with a continue token. If the client needs a consistent list, it must restart their list without the continue field. Otherwise, the client may send another list request with the token received with the 410 error, the server will respond with a list starting from the next key, but from the latest snapshot, which is inconsistent from the previous list results - objects that are created, modified, or deleted after the first list request will be included in the response, as long as their keys are after the \&quot;next key\&quot;.  This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications.
@@ -1313,7 +1313,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # list or watch objects of kind DaemonSet
     # @param [Hash] opts the optional parameters
     # @option opts [String] :continue The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server, the server will respond with a 410 ResourceExpired error together with a continue token. If the client needs a consistent list, it must restart their list without the continue field. Otherwise, the client may send another list request with the token received with the 410 error, the server will respond with a list starting from the next key, but from the latest snapshot, which is inconsistent from the previous list results - objects that are created, modified, or deleted after the first list request will be included in the response, as long as their keys are after the \&quot;next key\&quot;.  This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications.
@@ -1371,7 +1371,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # list or watch objects of kind Deployment
     # @param [Hash] opts the optional parameters
     # @option opts [String] :continue The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server, the server will respond with a 410 ResourceExpired error together with a continue token. If the client needs a consistent list, it must restart their list without the continue field. Otherwise, the client may send another list request with the token received with the 410 error, the server will respond with a list starting from the next key, but from the latest snapshot, which is inconsistent from the previous list results - objects that are created, modified, or deleted after the first list request will be included in the response, as long as their keys are after the \&quot;next key\&quot;.  This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications.
@@ -1389,7 +1389,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # list or watch objects of kind Deployment
     # @param [Hash] opts the optional parameters
     # @option opts [String] :continue The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server, the server will respond with a 410 ResourceExpired error together with a continue token. If the client needs a consistent list, it must restart their list without the continue field. Otherwise, the client may send another list request with the token received with the 410 error, the server will respond with a list starting from the next key, but from the latest snapshot, which is inconsistent from the previous list results - objects that are created, modified, or deleted after the first list request will be included in the response, as long as their keys are after the \&quot;next key\&quot;.  This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications.
@@ -1447,7 +1447,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # list or watch objects of kind ControllerRevision
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
@@ -1466,7 +1466,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # list or watch objects of kind ControllerRevision
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
@@ -1529,7 +1529,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # list or watch objects of kind DaemonSet
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
@@ -1548,7 +1548,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # list or watch objects of kind DaemonSet
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
@@ -1611,7 +1611,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # list or watch objects of kind Deployment
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
@@ -1630,7 +1630,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # list or watch objects of kind Deployment
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
@@ -1693,7 +1693,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # list or watch objects of kind ReplicaSet
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
@@ -1712,7 +1712,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # list or watch objects of kind ReplicaSet
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
@@ -1775,7 +1775,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # list or watch objects of kind StatefulSet
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
@@ -1794,7 +1794,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # list or watch objects of kind StatefulSet
     # @param namespace object name and auth scope, such as for teams and projects
     # @param [Hash] opts the optional parameters
@@ -1857,7 +1857,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # list or watch objects of kind ReplicaSet
     # @param [Hash] opts the optional parameters
     # @option opts [String] :continue The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server, the server will respond with a 410 ResourceExpired error together with a continue token. If the client needs a consistent list, it must restart their list without the continue field. Otherwise, the client may send another list request with the token received with the 410 error, the server will respond with a list starting from the next key, but from the latest snapshot, which is inconsistent from the previous list results - objects that are created, modified, or deleted after the first list request will be included in the response, as long as their keys are after the \&quot;next key\&quot;.  This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications.
@@ -1875,7 +1875,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # list or watch objects of kind ReplicaSet
     # @param [Hash] opts the optional parameters
     # @option opts [String] :continue The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server, the server will respond with a 410 ResourceExpired error together with a continue token. If the client needs a consistent list, it must restart their list without the continue field. Otherwise, the client may send another list request with the token received with the 410 error, the server will respond with a list starting from the next key, but from the latest snapshot, which is inconsistent from the previous list results - objects that are created, modified, or deleted after the first list request will be included in the response, as long as their keys are after the \&quot;next key\&quot;.  This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications.
@@ -1933,7 +1933,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # list or watch objects of kind StatefulSet
     # @param [Hash] opts the optional parameters
     # @option opts [String] :continue The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server, the server will respond with a 410 ResourceExpired error together with a continue token. If the client needs a consistent list, it must restart their list without the continue field. Otherwise, the client may send another list request with the token received with the 410 error, the server will respond with a list starting from the next key, but from the latest snapshot, which is inconsistent from the previous list results - objects that are created, modified, or deleted after the first list request will be included in the response, as long as their keys are after the \&quot;next key\&quot;.  This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications.
@@ -1951,7 +1951,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # list or watch objects of kind StatefulSet
     # @param [Hash] opts the optional parameters
     # @option opts [String] :continue The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server, the server will respond with a 410 ResourceExpired error together with a continue token. If the client needs a consistent list, it must restart their list without the continue field. Otherwise, the client may send another list request with the token received with the 410 error, the server will respond with a list starting from the next key, but from the latest snapshot, which is inconsistent from the previous list results - objects that are created, modified, or deleted after the first list request will be included in the response, as long as their keys are after the \&quot;next key\&quot;.  This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications.
@@ -2009,11 +2009,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # partially update the specified ControllerRevision
     # @param name name of the ControllerRevision
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2023,11 +2023,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # partially update the specified ControllerRevision
     # @param name name of the ControllerRevision
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2082,11 +2082,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # partially update the specified DaemonSet
     # @param name name of the DaemonSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2096,11 +2096,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # partially update the specified DaemonSet
     # @param name name of the DaemonSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2155,11 +2155,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # partially update status of the specified DaemonSet
     # @param name name of the DaemonSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2169,11 +2169,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # partially update status of the specified DaemonSet
     # @param name name of the DaemonSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2228,11 +2228,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # partially update the specified Deployment
     # @param name name of the Deployment
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2242,11 +2242,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # partially update the specified Deployment
     # @param name name of the Deployment
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2280,7 +2280,7 @@ module Kubernetes
       # HTTP header 'Accept' (if needed)
       header_params['Accept'] = @api_client.select_header_accept(['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'])
       # HTTP header 'Content-Type'
-      header_params['Content-Type'] = @api_client.select_header_content_type(['application/json-patch+json', 'application/merge-patch+json', 'application/strategic-merge-patch+json'])
+      header_params['Content-Type'] = @api_client.select_header_content_type(['application/strategic-merge-patch+json'])
 
       # form parameters
       form_params = {}
@@ -2301,11 +2301,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # partially update scale of the specified Deployment
     # @param name name of the Scale
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2315,11 +2315,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # partially update scale of the specified Deployment
     # @param name name of the Scale
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2374,11 +2374,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # partially update status of the specified Deployment
     # @param name name of the Deployment
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2388,11 +2388,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # partially update status of the specified Deployment
     # @param name name of the Deployment
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2447,11 +2447,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # partially update the specified ReplicaSet
     # @param name name of the ReplicaSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2461,11 +2461,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # partially update the specified ReplicaSet
     # @param name name of the ReplicaSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2520,11 +2520,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # partially update scale of the specified ReplicaSet
     # @param name name of the Scale
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2534,11 +2534,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # partially update scale of the specified ReplicaSet
     # @param name name of the Scale
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2593,11 +2593,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # partially update status of the specified ReplicaSet
     # @param name name of the ReplicaSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2607,11 +2607,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # partially update status of the specified ReplicaSet
     # @param name name of the ReplicaSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2666,11 +2666,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # partially update the specified StatefulSet
     # @param name name of the StatefulSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2680,11 +2680,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # partially update the specified StatefulSet
     # @param name name of the StatefulSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2739,11 +2739,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # partially update scale of the specified StatefulSet
     # @param name name of the Scale
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2753,11 +2753,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # partially update scale of the specified StatefulSet
     # @param name name of the Scale
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2812,11 +2812,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # partially update status of the specified StatefulSet
     # @param name name of the StatefulSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2826,11 +2826,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # partially update status of the specified StatefulSet
     # @param name name of the StatefulSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -2885,7 +2885,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # read the specified ControllerRevision
     # @param name name of the ControllerRevision
     # @param namespace object name and auth scope, such as for teams and projects
@@ -2899,7 +2899,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # read the specified ControllerRevision
     # @param name name of the ControllerRevision
     # @param namespace object name and auth scope, such as for teams and projects
@@ -2955,7 +2955,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # read the specified DaemonSet
     # @param name name of the DaemonSet
     # @param namespace object name and auth scope, such as for teams and projects
@@ -2969,7 +2969,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # read the specified DaemonSet
     # @param name name of the DaemonSet
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3025,7 +3025,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # read status of the specified DaemonSet
     # @param name name of the DaemonSet
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3037,7 +3037,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # read status of the specified DaemonSet
     # @param name name of the DaemonSet
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3089,7 +3089,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # read the specified Deployment
     # @param name name of the Deployment
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3103,7 +3103,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # read the specified Deployment
     # @param name name of the Deployment
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3159,7 +3159,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # read scale of the specified Deployment
     # @param name name of the Scale
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3171,7 +3171,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # read scale of the specified Deployment
     # @param name name of the Scale
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3223,7 +3223,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # read status of the specified Deployment
     # @param name name of the Deployment
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3235,7 +3235,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # read status of the specified Deployment
     # @param name name of the Deployment
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3287,7 +3287,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # read the specified ReplicaSet
     # @param name name of the ReplicaSet
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3301,7 +3301,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # read the specified ReplicaSet
     # @param name name of the ReplicaSet
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3357,7 +3357,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # read scale of the specified ReplicaSet
     # @param name name of the Scale
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3369,7 +3369,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # read scale of the specified ReplicaSet
     # @param name name of the Scale
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3421,7 +3421,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # read status of the specified ReplicaSet
     # @param name name of the ReplicaSet
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3433,7 +3433,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # read status of the specified ReplicaSet
     # @param name name of the ReplicaSet
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3485,7 +3485,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # read the specified StatefulSet
     # @param name name of the StatefulSet
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3499,7 +3499,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # read the specified StatefulSet
     # @param name name of the StatefulSet
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3555,7 +3555,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # read scale of the specified StatefulSet
     # @param name name of the Scale
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3567,7 +3567,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # read scale of the specified StatefulSet
     # @param name name of the Scale
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3619,7 +3619,7 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # read status of the specified StatefulSet
     # @param name name of the StatefulSet
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3631,7 +3631,7 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # read status of the specified StatefulSet
     # @param name name of the StatefulSet
     # @param namespace object name and auth scope, such as for teams and projects
@@ -3683,11 +3683,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # replace the specified ControllerRevision
     # @param name name of the ControllerRevision
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -3697,11 +3697,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # replace the specified ControllerRevision
     # @param name name of the ControllerRevision
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -3756,11 +3756,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # replace the specified DaemonSet
     # @param name name of the DaemonSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -3770,11 +3770,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # replace the specified DaemonSet
     # @param name name of the DaemonSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -3829,11 +3829,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # replace status of the specified DaemonSet
     # @param name name of the DaemonSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -3843,11 +3843,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # replace status of the specified DaemonSet
     # @param name name of the DaemonSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -3902,11 +3902,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # replace the specified Deployment
     # @param name name of the Deployment
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -3916,11 +3916,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # replace the specified Deployment
     # @param name name of the Deployment
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -3975,11 +3975,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # replace scale of the specified Deployment
     # @param name name of the Scale
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -3989,11 +3989,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # replace scale of the specified Deployment
     # @param name name of the Scale
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -4048,11 +4048,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # replace status of the specified Deployment
     # @param name name of the Deployment
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -4062,11 +4062,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # replace status of the specified Deployment
     # @param name name of the Deployment
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -4121,11 +4121,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # replace the specified ReplicaSet
     # @param name name of the ReplicaSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -4135,11 +4135,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # replace the specified ReplicaSet
     # @param name name of the ReplicaSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -4194,11 +4194,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # replace scale of the specified ReplicaSet
     # @param name name of the Scale
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -4208,11 +4208,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # replace scale of the specified ReplicaSet
     # @param name name of the Scale
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -4267,11 +4267,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # replace status of the specified ReplicaSet
     # @param name name of the ReplicaSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -4281,11 +4281,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # replace status of the specified ReplicaSet
     # @param name name of the ReplicaSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -4340,11 +4340,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # replace the specified StatefulSet
     # @param name name of the StatefulSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -4354,11 +4354,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # replace the specified StatefulSet
     # @param name name of the StatefulSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -4413,11 +4413,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # replace scale of the specified StatefulSet
     # @param name name of the Scale
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -4427,11 +4427,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # replace scale of the specified StatefulSet
     # @param name name of the Scale
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -4486,11 +4486,11 @@ module Kubernetes
       return data, status_code, headers
     end
 
-    # 
+    #
     # replace status of the specified StatefulSet
     # @param name name of the StatefulSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -4500,11 +4500,11 @@ module Kubernetes
       return data
     end
 
-    # 
+    #
     # replace status of the specified StatefulSet
     # @param name name of the StatefulSet
     # @param namespace object name and auth scope, such as for teams and projects
-    # @param body 
+    # @param body
     # @param [Hash] opts the optional parameters
     # @option opts [String] :pretty If &#39;true&#39;, then the output is pretty printed.
     # @option opts [String] :dry_run When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
